@@ -1,0 +1,12 @@
+/* #################### GENERAL #################### */
+@font-face {
+	font-family: 'helveticacondensed';
+	font-weight:normal;
+	font-style:normal;
+	src:url("../helveticacondensed/helvcond.eot") format('eot'); /* IE */
+	src:url("../helveticacondensed/helvcond.woff") format("woff"), url("../helveticacondensed/helvcond.ttf") format("truetype"), url("../helveticacondensed/helvcond.svg") format("svg");
+}
+
+/* #################### HEADER #################### */
+header {position:relative;z-index:10;background:white url(../images/header_background.jpg) repeat-x;height:246px}
+.centrage_logo_menu {position:relative;width:960px;margin:0 auto}

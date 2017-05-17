@@ -1,0 +1,9 @@
+#Profil
+{
+	width: 900px;
+	background: url('../images/profil_container.png') repeat-y;
+	margin: 0;
+	padding: 10px;
+	padding-top: 5px;
+	color: #90C; 
+}

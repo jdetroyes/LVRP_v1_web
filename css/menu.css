@@ -1,0 +1,129 @@
+/*
+	Menu Principal :) Merci Dark
+*/
+#Global #Menu 
+{
+    height: 35px;
+    margin: auto;
+    width: 750px;
+    margin-top: 25px;
+}
+#Global #Menu ul .MenuEnd, #Global #Menu ul .MenuEnd:hover
+{
+	position: absolute;
+	width: 710px;
+	height: 35px;
+	margin-left: 15px;
+	background: url('../images/menu.png') repeat-x;
+	z-index: 0;
+}
+#Global #Menu ul 
+{
+    height: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 759px;
+	position: absolute;
+}
+#Global #Menu ul li 
+{
+    background: url('../images/menu.png') repeat-x;
+    float: left;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 13px;
+	z-index: 10;
+}
+#Global #Menu ul li:hover 
+{
+    background: url('../images/menu_hover.png') repeat-x;
+}
+#Global #Menu ul li a, #Global #Menu ul li
+{
+	text-decoration: none;
+	color: white;
+	font-family: Verdana, serial;
+	font-size: 14px;
+	font-weight: bold;
+}
+#Global #Menu ul li ul
+{
+	position: absolute;
+	z-index: 10;
+	margin-top: 6px;
+	margin-left: -18px;
+	width: auto;
+	left: -999em;
+}
+#Global #Menu ul li ul li
+{
+	float: none;
+	background: url('../images/menu_ss.png') no-repeat;
+	width: 163px;
+	height: 17px;
+	padding: 0 12px;
+	padding-top: 2px;
+	text-align: left;
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+}
+#Global #Menu ul li ul li a
+{
+	color: white;
+	font-size: 12px;
+	font-weight: normal;
+}
+#Global #Menu ul li ul .SSHeader, #Global #Menu ul li ul .SSHeader:hover
+{
+	background: url('../images/menu_ss_header.png') no-repeat;
+	width: 163px;
+	height: 6px;
+padding: 0;	
+}
+#Global #Menu ul li ul .SSFooter, #Global #Menu ul li ul .SSFooter:hover
+{
+	background: url('../images/menu_ss_footer.png') no-repeat;
+	width: 163px;
+	height: 6px;
+	padding: 0;
+}
+#Global #Menu ul li ul li:hover
+{
+	background: url('../images/menu_ss_hover.png') no-repeat;
+	color: black;
+}
+#Global #Menu ul li ul li:hover a
+{
+	color: black;
+}
+#Global #Menu ul li:hover ul
+{
+	left: auto;
+}
+#Global #Menu .AngleGauche, #Global #Menu .AngleGauche:hover 
+{
+    background: url('../images/menu_left.png') no-repeat;
+    height: 40px;
+    padding: 0;
+    width: 15px;
+}
+#Global #Menu .AngleDroite, #Global #Menu .AngleDroite:hover 
+{
+    background: url('../images/menu_right.png') no-repeat;
+    float: right;
+    height: 40px;
+    padding: 0;
+    width: 15px;
+}
+#Global #Menu ul .Separate, #Global #Menu ul .Separate:hover
+{
+	background: url('../images/menu_separate.png') no-repeat;
+    height: 26px;
+    width: 10px;margin-left: -5px;
+    margin-right: -5px;
+    padding: 0;
+    margin-top: 10px;
+}

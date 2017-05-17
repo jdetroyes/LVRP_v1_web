@@ -1,0 +1,465 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+body {
+	color: #FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	background: url('../images/Title_font.png') repeat;
+}
+
+a, a:link, a:visited { 
+	color: #dc600d; 
+	font-weight: normal; 
+	text-decoration: none; 
+}
+
+a:hover { text-decoration: underline; }
+
+a.more { 
+	display: inline-block; 
+	width: 80px; 
+	height: 22px; 
+	line-height: 22px; 
+	text-align: center; 
+	background: url(../images/templatemo_button.png) no-repeat; 
+}
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#dc600d; }
+cite a, cite a:link, cite a:visited  { font-size: 12px; text-decoration: none; font-style: normal }
+cite span { font-weight: 400; color: #dc600d; }
+
+h1, h2, h3, h4, h5, h6 {font-weight: normal; }
+h1 { font-size: 48px; margin: 0 0 0px; padding: 5px 0 }
+h2 { font-size: 30px; margin: 0 0 0px; padding: 5px 0 }
+h3 { font-size: 24px; margin: 0 0 0px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 0px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 0px; padding: 0; }
+h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.divider { margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #000 }
+
+.float_l { float: left }
+.float_r { float: right }
+
+#templatemo_wrapper
+{
+	width: 950px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#templatemo_wrapper .Title 
+{
+    background: url('../images/wrapper_header.png') no-repeat scroll 0 0 transparent;
+    height: 36px;
+    width: 925px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+	color: #000;
+}
+#templatemo_wrapper .Content
+{
+	width: 925px;
+	background: url('../images/wrapper_contour.png') repeat-y;
+	margin:auto0;
+	padding: 10px;
+	padding-top: 5px;
+	color: #000;
+}
+
+#templatemo_wrapper .Footer
+{
+	width: 945px;
+	height: 40px;
+	background: url('../images/wrapper_footer.png') no-repeat;
+    padding-left: 10px;
+	color:#333;
+}
+
+#profilin
+{
+	width: 900px;
+    margin: auto;
+}
+
+#profilin .menu
+{
+    width: 120px;
+}
+
+#profilin .in
+{
+	width: 500px;
+	margin-top:30px;
+	margin-left: 300px;
+	background: url('../images/profil_container.png') repeat-y;
+}
+#profilin .in .text
+{
+	margin-right:12px;
+	color:#000;
+	margin-left:12px;
+}
+#profilin .in .text .center
+{
+	font-size:36px;
+	color:#030;
+	text-align:center;
+}
+#profilin .in .text .right
+{
+	text-align:right;
+}
+#profilin .in .text .normal
+{
+	font-size:24px;
+	color:#999;
+	margin-left:12px;
+}
+#profilin .in .separate
+{
+	margin-left:-12px;
+	width: 512px;
+	background: url('../images/profil_separate.png') no-repeat;
+}
+
+#templatmeo_header {
+	width: 925px;
+	margin: 0  auto ;
+	height: 196px;
+	text-align:center;
+	padding: 0 0px;
+}
+
+#label{
+	width: 700px;
+	margin: 0 auto;
+	padding: 0 20px;
+	background: url(../images/label.png) no-repeat;
+}
+
+#Dialog{
+	float:none;
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	background: url(../images/connexion.png) no-repeat;
+}
+
+#formu_name{
+	width: 170px;
+	height: 200px;
+	margin: 0 auto;
+}
+#register{
+	float:none;
+	width: 600px;
+	height: 80px;
+	margin: 0 auto;
+	text-align:center;
+	color:#000;
+}
+
+#site_title { 
+	float: left; 
+}
+
+#site_title h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#site_title h1 a { 
+	display: block; 
+	font-size: 12px; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	width: 286px; 
+	height: 38px; 
+	color: #acacac; 
+	text-indent: -10000px; 
+	background: url(../images/lvrp.png) no-repeat center left; 
+}
+
+#copyright{
+	display: block; 
+	font-size: 12px;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	width: 940px; 
+	height: 38px; 
+	color: #acacac; 
+}
+
+#logint{
+	float:right;
+	text-align:right;
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	width: 350px; 
+	height: 20px; 
+	color: #420; 
+}
+
+#admint{
+	float:left;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	width: 350px; 
+	height: 20px; 
+	color: #420; 
+}
+
+
+#container
+{
+	width:720;
+	margin: auto;
+	color: #000;
+}
+
+#container .in
+{
+	width:720;
+	background: url('../images/container.png') repeat-y;
+}
+#container .in .text
+{
+	width:705;
+	margin-left:10px;
+	color: #000;
+}
+#container .seperate
+{
+	background: url('../images/seperate.png') no-repeat scroll 0 0 transparent;
+	height:9px;
+}
+
+#dialogue
+{
+	width:760;
+	margin:auto;
+	color:#000;
+}
+
+#dialogue .container
+{
+	width:760;
+	background: url('../images/container2.png') repeat-y;
+	color: #000;
+}
+#dialogue .container .text
+{
+	width:745;
+	margin-left:5px;
+	color: #000;
+}
+
+#dialogue .header
+{
+	background: url('../images/header.png') no-repeat scroll 0 0 transparent;
+	height:9px;
+}
+
+#dialogue .footer
+{
+	background: url('../images/footer.png') no-repeat scroll 0 0 transparent;
+	height:9px;
+}
+
+#News
+{
+	width: 710px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+#News .Title 
+{
+    background: url('../images/news_header.png') no-repeat scroll 0 0 transparent;
+    height: 20px;
+    width: 690px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+	color: #000;
+}
+#News .Content
+{
+	width: 690px;
+	background: url('../images/news.png') repeat-y;
+	margin: 0;
+	padding: 10px;
+	padding-top: 5px;
+	color: #90C;
+}
+
+#News .Content p
+{
+	margin: 0;
+	font-family: Verdana, serial;
+	font-size: 11px;
+}
+#News .Content table
+{
+	border-collapse: collapse;
+	margin: 0;
+	font-family: Verdana, serial;
+	font-size: 11px;
+	color: #90C;
+}
+#News .Content table tr td
+{
+	border: 1px solid black;
+	padding: 4px;
+}
+#News .Content ul
+{
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
+	font-family: Verdana, serial;
+	font-size: 11px;
+	list-style-type: circle;
+}
+
+#News .End
+{
+	width: 710px;
+	height: 19px;
+	background: url('../images/news_footer.png') no-repeat;
+    padding-left: 10px;
+}
+
+#Valide
+{
+	width: 715px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#Valide .Title 
+{
+    background: url('../images/valide_header.png') no-repeat scroll 0 0 transparent;
+    height: 16px;
+    width: 715px;
+    padding-top: 10px;
+	color: #000;
+}
+#Valide .Content
+{
+	width: 715px;
+	background: url('../images/valide_container.png') repeat-y;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 20px;
+	text-align:center;
+	color: #000;
+}
+
+#Valide .Content p
+{
+	margin: 0;
+	font-family: Verdana, serial;
+	font-size: 11px;
+}
+#Valide .Content table
+{
+	border-collapse: collapse;
+	margin: 0;
+	font-family: Verdana, serial;
+	font-size: 11px;
+	color: #90C;
+}
+#Valide .Content table tr td
+{
+	border: 1px solid black;
+}
+#Valide .Content ul
+{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, serial;
+	font-size: 11px;
+	list-style-type: circle;
+	text-align:center;
+}
+
+#Valide .End
+{
+	width: 715px;
+	height: 21px;
+	background: url('../images/valide_footer.png') no-repeat;
+}
+
+
+#InValide
+{
+	width: 715px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+#InValide .Title 
+{
+    background: url('../images/invalide_header.png') no-repeat scroll 0 0 transparent;
+    height: 16px;
+    width: 715px;
+    padding-top: 10px;
+	color: #000;
+}
+#InValide .Content
+{
+	width: 715px;
+	background: url('../images/invalide_container.png') repeat-y;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 20px;
+	text-align:center;
+	color: #000;
+}
+
+#InValide .Content p
+{
+	margin: 0;
+	font-family: Verdana, serial;
+	font-size: 11px;
+}
+#InValide .Content table
+{
+	border-collapse: collapse;
+	margin: 0;
+	font-family: Verdana, serial;
+	font-size: 11px;
+	color: #90C;
+}
+#InValide .Content table tr td
+{
+	border: 1px solid black;
+}
+#InValide .Content ul
+{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, serial;
+	font-size: 11px;
+	list-style-type: circle;
+	text-align:center;
+}
+
+#InValide .End
+{
+	width: 715px;
+	height: 21px;
+	background: url('../images/invalide_footer.png') no-repeat;
+}

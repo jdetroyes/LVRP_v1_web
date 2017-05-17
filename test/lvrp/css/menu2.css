@@ -1,0 +1,62 @@
+#Menu2 
+{
+	float:left;
+    height: auto;
+    margin: auto;
+    width: 100px;
+}
+#Menu2 ul li 
+{
+	float: none;
+	background: url('../images/menu_ss.png') no-repeat;
+	width: 163px;
+	height: 17px;
+	padding: 0;
+	padding-top: 2px;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+}
+#Menu2 ul .title 
+{
+	float: none;
+	background: url('../images/menu_ss.png') no-repeat;
+	width: 163px;
+	height: 17px;
+	padding: 0;
+	padding-top: 2px;
+	text-align: center;
+	color: red;
+	font-weight: normal;
+	font-size: 12px;
+}
+#Menu2 ul li a
+{
+	color: white;
+	font-size: 12px;
+	font-weight: normal;
+}
+#Menu2 ul .SSHeader, #Menu2 ul .SSHeader:hover
+{
+	background: url('../images/menu_ss_header.png') no-repeat;
+	width: 163px;
+	height: 6px;
+	padding: 0;	
+}
+#Menu2 ul .SSFooter, #Menu2 ul .SSFooter:hover
+{
+	background: url('../images/menu_ss_footer.png') no-repeat;
+	width: 163px;
+	height: 6px;
+	padding: 0;
+}
+#Menu2 ul li:hover
+{
+	background: url('../images/menu_ss_hover.png') no-repeat;
+	color: white;
+}
+#Menu2 ul li:hover a
+{
+	color: white;
+}
